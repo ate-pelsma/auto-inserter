@@ -9,7 +9,7 @@ This is to make sure that the commit msg still mentions the correct Jira ticket.
 If this is unwanted functionality, simply comment out those lines of code.
 
 ## How to install and run
-Simply copy paste the prepare-commit-msg file into your project's .git/hooks folder and there you go, it works!
+Simply copy paste the contents of the prepare-commit-msg.sh file into your project's .git/hooks/prepare-commit-msg file and there you go, it works!
 It should work in the command line as well as in IDEs such as IntelliJ (tested on v2023.2).
 
 ## Requirements
